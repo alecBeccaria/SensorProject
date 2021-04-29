@@ -56,7 +56,7 @@ function SpeedySensor(){
         {averageVelocity.toFixed(2)}{"\n"}
         V m/s{"\n\n"}
         </Text>
-        <Speedometer value={spedoMeters} totalValue={5} showIndicator showLabels />
+        <Speedometer value={spedoMeters} totalValue={10} showIndicator showLabels />
         <Text style={styles.velocities}>
         {feetPerSecond.toFixed(2)}{"\n"}
         V ft/s{"\n\n"} 
